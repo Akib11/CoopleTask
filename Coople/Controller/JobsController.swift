@@ -11,14 +11,14 @@ import UIKit
 class JobsController: UITableViewController {
 
     private let cellID = "CellID"
-    private let jobViewModel = JobViewModel()
+    private let jobViewModel = JobViewModel(networkService: NetworkService())
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupViews()
         
-        jobViewModel.fetchFBRestaurants()
+        jobViewModel.getJobs()
         jobViewModel.delegate = self
     }
 

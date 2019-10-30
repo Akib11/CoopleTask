@@ -21,16 +21,21 @@ class JobViewModel {
     private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     var delegate: JobViewModelDelegate?
-   private var jobs = [JobDetails]()
+    private var jobs = [JobDetails]()
+    private let networkService:NetworkService?
+    
+    //Dependecny injection
+    init(networkService: NetworkService) {
+        self.networkService = networkService
+    }
     
     
-    func fetchFBRestaurants() {
+    func getJobs() {
         
-        let networkCall = Service()
         
         let urlStr = "https://www.coople.com/resources/api/work-assignments/public-jobs/list?pageNum=0&pageSize=200"
         
-        networkCall.fetchRequest(urlString: urlStr, httpMethod: .get) { (_ result: Result<JobModel,Error>) in
+        networkService?.fetchRequest(urlString: urlStr, httpMethod: .get) { (_ result: Result<JobModel,Error>) in
             
             switch result {
             case .success(let JobsResult):

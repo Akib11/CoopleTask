@@ -16,7 +16,7 @@ public enum HTTPMethod : String {
     case delete  = "DELETE"
 }
 
-class Service {
+class NetworkService {
     
     
     private enum APIError: Error {
@@ -47,7 +47,6 @@ class Service {
         }
     }
     
-    static let shared = Service()
     
     
     func fetchRequest<T: Decodable>(urlString:String, httpMethod:HTTPMethod, completion: @escaping (Result<T, Error>) -> ()) {
