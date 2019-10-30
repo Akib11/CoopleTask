@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		E1BA9C84234FADA700AD06E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C83234FADA700AD06E0 /* AppDelegate.swift */; };
-		E1BA9C86234FADA700AD06E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C85234FADA700AD06E0 /* ViewController.swift */; };
-		E1BA9C89234FADA700AD06E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA9C87234FADA700AD06E0 /* Main.storyboard */; };
+		E1BA9C86234FADA700AD06E0 /* JobsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C85234FADA700AD06E0 /* JobsController.swift */; };
 		E1BA9C8B234FADA900AD06E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BA9C8A234FADA900AD06E0 /* Assets.xcassets */; };
 		E1BA9C8E234FADA900AD06E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA9C8C234FADA900AD06E0 /* LaunchScreen.storyboard */; };
+		E1BA9C96234FAF9C00AD06E0 /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C95234FAF9C00AD06E0 /* JobModel.swift */; };
+		E1BA9C98234FB23800AD06E0 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C97234FB23800AD06E0 /* JobCell.swift */; };
+		E1BA9C9A234FB2C500AD06E0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C99234FB2C500AD06E0 /* Service.swift */; };
+		E1BA9C9C234FB2D000AD06E0 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C9B234FB2D000AD06E0 /* UIView+Layout.swift */; };
+		E1BA9C9E234FB2E200AD06E0 /* UILabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C9D234FB2E200AD06E0 /* UILabel+Ext.swift */; };
+		E1BA9CA0234FB40800AD06E0 /* JobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9C9F234FB40800AD06E0 /* JobViewModel.swift */; };
+		E1BA9CA3234FB68200AD06E0 /* CoopleDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9CA1234FB68200AD06E0 /* CoopleDataModel.xcdatamodeld */; };
+		E1BA9CA6234FB81500AD06E0 /* JobDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9CA4234FB81500AD06E0 /* JobDetails+CoreDataClass.swift */; };
+		E1BA9CA7234FB81500AD06E0 /* JobDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA9CA5234FB81500AD06E0 /* JobDetails+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1BA9C80234FADA700AD06E0 /* Coople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BA9C83234FADA700AD06E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1BA9C85234FADA700AD06E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E1BA9C88234FADA700AD06E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1BA9C85234FADA700AD06E0 /* JobsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsController.swift; sourceTree = "<group>"; };
 		E1BA9C8A234FADA900AD06E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BA9C8D234FADA900AD06E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1BA9C8F234FADA900AD06E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BA9C95234FAF9C00AD06E0 /* JobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
+		E1BA9C97234FB23800AD06E0 /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		E1BA9C99234FB2C500AD06E0 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E1BA9C9B234FB2D000AD06E0 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		E1BA9C9D234FB2E200AD06E0 /* UILabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Ext.swift"; sourceTree = "<group>"; };
+		E1BA9C9F234FB40800AD06E0 /* JobViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobViewModel.swift; sourceTree = "<group>"; };
+		E1BA9CA2234FB68200AD06E0 /* CoopleDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoopleDataModel.xcdatamodel; sourceTree = "<group>"; };
+		E1BA9CA4234FB81500AD06E0 /* JobDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JobDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E1BA9CA5234FB81500AD06E0 /* JobDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JobDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +71,69 @@
 			isa = PBXGroup;
 			children = (
 				E1BA9C83234FADA700AD06E0 /* AppDelegate.swift */,
-				E1BA9C85234FADA700AD06E0 /* ViewController.swift */,
-				E1BA9C87234FADA700AD06E0 /* Main.storyboard */,
+				E1BA9CA8234FC74500AD06E0 /* Model */,
+				E1BA9CA9234FC76300AD06E0 /* ViewModel */,
+				E1BA9CAD234FC7D000AD06E0 /* View */,
+				E1BA9CAA234FC77200AD06E0 /* Controller */,
+				E1BA9CAB234FC79200AD06E0 /* Network */,
+				E1BA9CAC234FC7A300AD06E0 /* Extensions */,
 				E1BA9C8A234FADA900AD06E0 /* Assets.xcassets */,
+				E1BA9CA1234FB68200AD06E0 /* CoopleDataModel.xcdatamodeld */,
 				E1BA9C8C234FADA900AD06E0 /* LaunchScreen.storyboard */,
 				E1BA9C8F234FADA900AD06E0 /* Info.plist */,
 			);
 			path = Coople;
+			sourceTree = "<group>";
+		};
+		E1BA9CA8234FC74500AD06E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA9C95234FAF9C00AD06E0 /* JobModel.swift */,
+				E1BA9CA4234FB81500AD06E0 /* JobDetails+CoreDataClass.swift */,
+				E1BA9CA5234FB81500AD06E0 /* JobDetails+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1BA9CA9234FC76300AD06E0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA9C9F234FB40800AD06E0 /* JobViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1BA9CAA234FC77200AD06E0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA9C85234FADA700AD06E0 /* JobsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1BA9CAB234FC79200AD06E0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA9C99234FB2C500AD06E0 /* Service.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E1BA9CAC234FC7A300AD06E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA9C9B234FB2D000AD06E0 /* UIView+Layout.swift */,
+				E1BA9C9D234FB2E200AD06E0 /* UILabel+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1BA9CAD234FC7D000AD06E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA9C97234FB23800AD06E0 /* JobCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +196,6 @@
 			files = (
 				E1BA9C8E234FADA900AD06E0 /* LaunchScreen.storyboard in Resources */,
 				E1BA9C8B234FADA900AD06E0 /* Assets.xcassets in Resources */,
-				E1BA9C89234FADA700AD06E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BA9C86234FADA700AD06E0 /* ViewController.swift in Sources */,
+				E1BA9CA6234FB81500AD06E0 /* JobDetails+CoreDataClass.swift in Sources */,
+				E1BA9C86234FADA700AD06E0 /* JobsController.swift in Sources */,
 				E1BA9C84234FADA700AD06E0 /* AppDelegate.swift in Sources */,
+				E1BA9CA7234FB81500AD06E0 /* JobDetails+CoreDataProperties.swift in Sources */,
+				E1BA9C9C234FB2D000AD06E0 /* UIView+Layout.swift in Sources */,
+				E1BA9CA3234FB68200AD06E0 /* CoopleDataModel.xcdatamodeld in Sources */,
+				E1BA9C9A234FB2C500AD06E0 /* Service.swift in Sources */,
+				E1BA9CA0234FB40800AD06E0 /* JobViewModel.swift in Sources */,
+				E1BA9C96234FAF9C00AD06E0 /* JobModel.swift in Sources */,
+				E1BA9C98234FB23800AD06E0 /* JobCell.swift in Sources */,
+				E1BA9C9E234FB2E200AD06E0 /* UILabel+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E1BA9C87234FADA700AD06E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1BA9C88234FADA700AD06E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E1BA9C8C234FADA900AD06E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UT2MG9LM9;
 				INFOPLIST_FILE = Coople/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UT2MG9LM9;
 				INFOPLIST_FILE = Coople/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +410,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1BA9CA1234FB68200AD06E0 /* CoopleDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1BA9CA2234FB68200AD06E0 /* CoopleDataModel.xcdatamodel */,
+			);
+			currentVersion = E1BA9CA2234FB68200AD06E0 /* CoopleDataModel.xcdatamodel */;
+			path = CoopleDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E1BA9C78234FADA700AD06E0 /* Project object */;
 }
